@@ -98,6 +98,10 @@ Acesse em: `http://localhost:5173`
 
 ---
 
+## 🌐 Deploy
+
+Acesse a aplicação em produção: [leituraria.vercel.app](https://leituraria.vercel.app)
+
 ## 👨‍💻 Autor
 
-Feito por **Guilherme** durante o curso de React da [Alura](https://www.alura.com.br/).
+Feito por **Guilherme Guimarães** durante o curso de React da [Alura](https://www.alura.com.br/).
