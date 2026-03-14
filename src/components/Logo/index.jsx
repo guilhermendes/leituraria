@@ -1,13 +1,10 @@
-import './logo.style.css';
+import "./logo.style.css";
+import logoImg from "../../assets/image/logo-leituraria.png";
 
 export function Logo() {
   return (
     <div className="logo">
-      <img
-        src="/src/assets/image/logo-leituraria.png"
-        alt="Logo da Leituraria"
-        width="200px"
-      />
+      <img src={logoImg} alt="Logo da Leituraria" width="200px" />
     </div>
   );
 }

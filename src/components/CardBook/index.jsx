@@ -1,11 +1,12 @@
 import "./card-livro.style.css";
 import { IconEditar, IconExcluir } from "../icons";
+import iconBook from "../../assets/image/icon-book.png";
 
 export function CardBook({ id, titulo, autor, status, onEditar, onExcluir }) {
   return (
     <div className="card-livro">
       <div className="card-livro-icone">
-        <img src="../src/assets/image/icon-book.png" />
+        <img src={iconBook} alt="Ícone do livro" />
       </div>
       <div className="card-livro-info">
         <p className="card-livro-titulo">{titulo}</p>
