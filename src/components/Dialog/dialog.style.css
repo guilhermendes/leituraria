@@ -1,0 +1,49 @@
+.dialog {
+  border: none;
+  border-radius: 16px;
+  padding: 0;
+  width: 100%;
+  max-width: 440px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  margin: auto;
+}
+
+.dialog::backdrop {
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(2px);
+}
+
+.dialog .btn-close {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  background: #faf3ec;
+}
+
+.dialog .btn-close span {
+  color: #7f4718;
+}
+
+.dialog .btn-close button {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #888;
+  transition: background 0.15s;
+}
+
+.dialog .btn-close button:hover {
+  background: #f2e1cf;
+}
+
+.dialog .body {
+  padding: 1.5rem;
+}

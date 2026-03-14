@@ -1,0 +1,50 @@
+.navbar {
+  background: #faf3ec;
+  border-bottom: 1px solid var(--border);
+
+  width: 100%;
+}
+
+.navbar_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 400px;
+}
+.navbar_inner a {
+  text-decoration: none;
+  color: var(--muted);
+  font-size: 15px;
+  font-weight: 400;
+  padding: 6px 16px;
+  position: relative; /* necessário para o ::after */
+  transition:
+    color 0.2s,
+    background 0.2s;
+  border-radius: 20px;
+}
+
+.navbar_inner a:hover {
+  color: var(--ink);
+  background: rgba(200, 132, 58, 0.08);
+}
+
+.navbar_inner a.ativo {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.navbar_inner a.ativo::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  background: #c8843a;
+  border-radius: 50%;
+}

@@ -1,0 +1,70 @@
+.card-livro {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #fdf8f4;
+  border: 1px solid var(--border, #e8dfd0);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+.card-livro:hover {
+  background: rgba(250, 246, 239, 0.85);
+}
+
+.card-livro-icone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0e9dd;
+  border-radius: 8px;
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  color: #8b6f47;
+}
+
+.card-livro-titulo {
+  font-size: 22px;
+  font-weight: 600;
+  color: #7f4718;
+  margin: 0;
+}
+
+.card-livro-autor {
+  font-size: 0.8rem;
+}
+
+.card-livro {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.card-livro-acoes {
+  display: flex;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.card-livro-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #aaa;
+  transition:
+    background 0.15s,
+    color 0.15s;
+}
+
+.card-livro-btn:hover {
+  background: rgba(0, 0, 0, 0.06);
+  color: #555;
+}

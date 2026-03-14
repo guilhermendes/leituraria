@@ -1,0 +1,59 @@
+.confirm-dialog {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+.confirm-dialog-mensagem {
+  font-size: 15px;
+  color: var(--ink);
+  text-align: center;
+}
+
+.confirm-dialog-acoes {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.btn-confirm {
+  padding: 10px 24px;
+  margin: 0;
+}
+
+.btn-cancelar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #faf3ec;
+  color: #7f4718;
+  border: 1px solid var(--border, #e8dfd0);
+  border-radius: 20px;
+  padding: 10px 24px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-cancelar:hover {
+  background: #f2e1cf;
+}
+
+.btn-confirmar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fdf0f0;
+  color: #a32d2d;
+  border: 1px solid #f0c0c0;
+  border-radius: 20px;
+  padding: 10px 24px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-confirmar:hover {
+  background: #f7c1c1;
+}

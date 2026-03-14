@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+
+
+  <!-- Página esquerda do livro (laranja) -->
+  <path d="M12 18 Q12 14 16 14 L32 14 L32 48 L16 48 Q12 48 12 44 Z" fill="#f97316"/>
+  <!-- Detalhe de sombra na página esquerda -->
+  <path d="M28 14 L32 14 L32 48 L28 48 Z" fill="#ea6a0a" opacity="0.5"/>
+
+  <!-- Página direita do livro (creme) -->
+  <path d="M32 14 L48 14 Q52 14 52 18 L52 44 Q52 48 48 48 L32 48 Z" fill="#fef3c7"/>
+  <!-- Detalhe de sombra na página direita -->
+  <path d="M32 14 L36 14 L36 48 L32 48 Z" fill="#fde68a" opacity="0.5"/>
+
+  <!-- Lombada do livro -->
+  <rect x="30" y="14" width="4" height="34" rx="1" fill="#1e3a5f"/>
+
+  <!-- Bookmark verde na página direita -->
+  <path d="M41 14 L47 14 L47 28 L44 25 L41 28 Z" fill="#16a34a"/>
+
+  <!-- Capa inferior do livro -->
+  <path d="M10 44 Q10 50 16 50 L48 50 Q54 50 54 44 L54 46 Q54 53 48 53 L16 53 Q10 53 10 46 Z" fill="#0d1b2e" opacity="0.6"/>
+</svg>

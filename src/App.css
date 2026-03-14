@@ -1,0 +1,27 @@
+:root {
+  --ink: #1a1207;
+  --parchment: #faf6ef;
+  --amber: #c8843a;
+  --amber-light: #e8a85a;
+  --muted: #7a6e62;
+  --border: rgba(200, 132, 58, 0.2);
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #faf3ec;
+  color: #7f4718;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 50px;
+  border: 1px solid var(--border, #e8dfd0);
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin: 0 auto 20px; /* substitui o margin-bottom e centraliza */
+}
+
+.btn:hover {
+  background: #f2e1cf;
+}
